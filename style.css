@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#bg{
+    background-color: rgba(128, 128, 128, 0.657);
+    width: 100%;
+    height: 100%;
+}
+.box{
+    background-color: rgb(15, 44, 15);
+    position: absolute;
+}
+
+#bx1{
+    width: 11%;
+    height: 21%;
+}
+
+#bx2{
+    width: 5%;
+    height: 30%;
+    left: 95%;
+    top: 30%;
+}
+
+#bx3{
+    width: 35%;
+    height: 10%;
+    top: 90%;
+    left: 65%;
+}
+
+#bg1{
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.897);
+    box-shadow: -2px 10px 60px rgba(0, 0, 0, 0.541);
+    overflow: hidden;
+}
+
+#bx4{
+    width: 9%;
+    height: 15%;
+}
+
+#bx5{
+    width: 9%;
+    height: 26%;
+    left: 95%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+}
+
+#bx5 i{
+    margin-bottom: 15px;
+    color: white;
+    width: 19px;
+    /* border-radius: 5px; */
+    height: 20px;
+    background-color: ;
+}
+
+#bx6{
+    width: 33%;
+    height: 10%;
+    top: 90%;
+    left: 68%;
+    color: #ffff;
+    padding: 15px 100px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+#nav{
+    width: 30%;
+    height: 10%;
+    /* background-color: red; */
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(15, 44, 15);  
+}
+
+#nav i{
+    margin-top: 2%;
+}
+
+#nav h3{
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#bg1 img{
+    position: absolute;
+    left: 62%;
+    bottom: 5px;
+    /* background-color: red; */
+}
+
+/* #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 66, 19, 0.794);
+} */
+
+
+
+
+#content{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    color: rgb(33, 49, 33);
+    /* background-color: red; */
+    top: 17%;
+    left: 38%;
+    /* font-size: 30px; */
+}
+
+
+#content h1{
+    font-size: 150px;
+}
+
+#content h2{
+    font-weight: 100;
+    color: rgb(38, 66, 38);
+    margin-left: 20px;
+}
+
+#imgsrc{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    top: 5%;
+    /* background-color: red; */
+}
+
+#im1{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 0;
+    left: 0;.
+    margin-right: 1000px;
+    /* background-color: red; */
+}
+
+#im2{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 44%;
+    right: 100%;
+    /* background-color: red; */
+}
+
+#im3{
+    position: absolute;
+    top: 88%;
+}
